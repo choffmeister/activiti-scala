@@ -12,11 +12,5 @@
 		<property name="history" value="full" />
 		<!-- <property name="mailServerHost" value="mail.my-corp.com" /> -->
 		<!-- <property name="mailServerPort" value="5025" /> -->
-
-		<property name="preParseListeners">
-			<list>
-				<bean class="de.choffmeister.activitiscala.MyBpmnParseListener"></bean>
-			</list>
-		</property>
 	</bean>
 </beans>
