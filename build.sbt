@@ -9,7 +9,7 @@ scalacOptions := Seq("-unchecked", "-feature", "-deprecation", "-language:postfi
 libraryDependencies ++= Seq(
   "org.activiti" % "activiti-engine" % "5.14",
   "org.activiti" % "activiti-bpmn-model" % "5.14",
-  "com.h2database" % "h2" % "1.3.173",
+  "com.h2database" % "h2" % "1.4.200",
   "junit" % "junit" % "4.11" % "test",
   "org.specs2" %% "specs2" % "2.2.3" % "test"
 )
